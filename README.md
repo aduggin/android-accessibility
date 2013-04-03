@@ -1,14 +1,5 @@
 # Android Accessibility
 
-Things to find out:
-
-1. Set a trait such as selected
-2. Move focus to an element
-3. Group content description on a container
-4. Use a list so that a user knows how many items there are
-5. How to use the D-pad
-
-
 
 ## Notes
 
@@ -65,21 +56,36 @@ You can provide explicit overrides to the ordering using the following XML attri
 For more detail see: [Controlling focus order](http://developer.vodafone.com/smartaccess2012/designing_for_accessibility/#FocusOrder)
 
 
+### Speak information to a user
+
+	announceForAccessibility(CharSequence)
+
+
+h2. How do you do these?
+
+1. Set a trait such as selected
+2. Move focus to an element
+3. Group content description on a container
+4. Use a list so that a user knows how many items there are
+5. How to navigate an application using directional control - e.g the D-pad
+
+
 
 ## Resources
 
 ### Google Documentation
-* [Accessibility | Patterns](http://developer.android.com/design/patterns/accessibility.html)
-* [Accessibility | developer.android.com](http://developer.android.com/guide/topics/ui/accessibility/index.html)
+* [Android Design: Accessibility](http://developer.android.com/design/patterns/accessibility.html)
+* [API Guide - Accessibility | developer.android.com](http://developer.android.com/guide/topics/ui/accessibility/index.html)
 	* [Making Applications Accessible](http://developer.android.com/guide/topics/ui/accessibility/apps.html) 
 	* [Accessibility Developer Checklist](http://developer.android.com/guide/topics/ui/accessibility/checklist.html)
 	* [Building Accessibility Services](http://developer.android.com/guide/topics/ui/accessibility/services.html)
 * [Implementing Accessibility | Training](http://developer.android.com/training/accessibility/index.html)
 	* [Developing Accessible Applications](http://developer.android.com/training/accessibility/accessible-app.html)
 	* [Developing an Accessibility Service](http://developer.android.com/training/accessibility/service.html)
+* [Accessibility Testing Checklist](http://developer.android.com/tools/testing/testing_accessibility.html)
 * [android.view.accessibility](http://developer.android.com/reference/android/view/accessibility/package-summary.html)
-* [AccessibilityEvent ](http://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html)
-* [AccessibilityEventSource](http://developer.android.com/reference/android/view/accessibility/AccessibilityEventSource.html)
+	* [AccessibilityEvent ](http://developer.android.com/reference/android/view/accessibility/AccessibilityEvent.html)
+	* [AccessibilityEventSource](http://developer.android.com/reference/android/view/accessibility/AccessibilityEventSource.html)
 
 ### Forums
 * [eyes-free](https://groups.google.com/forum/?fromgroups#!forum/eyes-free)
